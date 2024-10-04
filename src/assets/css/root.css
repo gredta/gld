@@ -5,8 +5,8 @@
 /* CodeStitch Root and Helpers */
 @media only screen and (min-width: 0rem) {
   :root {
-    --primary: #ffba19;
-    --primaryLight: #ffd675;
+    --primary: #89b5ed;
+    --primaryLight: #89b5ed;
     --secondary: #001f3f;
     --secondaryLight: #001f3f;
     --headerColor: #1a1a1a;
@@ -40,6 +40,8 @@
     font-weight: 900;
     color: var(--headerColor);
     text-align: inherit;
+    margin-left: auto;
+    margin-right: auto;
   }
   .cs-text {
     margin: 0;
@@ -49,6 +51,8 @@
     line-height: 1.5em;
     color: var(--bodyTextColor);
     text-align: inherit;
+    margin-left: auto;
+    margin-right: auto;
   }
   .cs-button-solid {
     z-index: 1;
